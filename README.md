@@ -1,3 +1,5 @@
+Web Scrapping -AzerNews
+
 This project involves building a complete pipeline to scrape news articles from the Azernews website, categorize the content, and display it through a modern web interface.
 The process begins by using Python to scrape news articles from Azernews. Relevant information such as the article title, publication date, content, category, and URL is extracted and saved into structured JSON files. Each category (e.g., Politics, Economy, Sports) has its own JSON file, stored in a data/ directory.
 A Flask backend is implemented to serve this data via RESTful API endpoints, with CORS enabled to allow interaction with the frontend. The backend reads from the JSON files and returns data according to the requested category.
